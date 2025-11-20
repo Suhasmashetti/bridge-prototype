@@ -9,7 +9,7 @@ export const CONFIG =  {
     },
     rpc: {
         solana: process.env.SOLANA_RPC || "https://api.devnet.solana.com",
-        evm: process.env.ETHEReum_RPC || "https://rpc.ankr.com/eth_sepoliad",
+        evm: process.env.ETHEREUM_RPC || "https://rpc.ankr.com/eth_sepolia",
     },
 
     tokens: {
